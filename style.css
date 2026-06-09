@@ -35,7 +35,7 @@ canvas#particles {
    max-width: 420px;
    width: 100%;
    overflow-x: hidden;
-   touch-action: pan-y;
+   /* touch-action: pan-y; */
 }
 .logo-wrap {
    position: relative;
