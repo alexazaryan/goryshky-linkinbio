@@ -560,3 +560,10 @@ canvas#ring {
 .ic-cat {
    background: rgba(232, 168, 48, 0.2);
 }
+
+@media (pointer: coarse) {
+   .soc-btn {
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+   }
+}
