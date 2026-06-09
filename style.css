@@ -544,6 +544,11 @@ canvas#ring {
    color: #fff;
    box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
 }
+.btn-vb {
+   background: #7360f2;
+   color: #fff;
+   box-shadow: 0 0 10px rgba(115, 96, 242, 0.5);
+}
 .btn-cat {
    background: #cc9200;
    color: #1a0e04;
@@ -575,6 +580,9 @@ canvas#ring {
 }
 .ic-ig {
    background: rgba(214, 59, 143, 0.2);
+}
+.ic-vb {
+   background: rgba(115, 96, 242, 0.2);
 }
 .ic-cat {
    background: rgba(232, 168, 48, 0.2);
