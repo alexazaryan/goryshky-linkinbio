@@ -35,6 +35,7 @@ canvas#particles {
    max-width: 420px;
    width: 100%;
    overflow-x: hidden;
+   touch-action: pan-y;
 }
 .logo-wrap {
    position: relative;
@@ -444,6 +445,7 @@ canvas#ring {
    pointer-events: none;
    user-select: none;
    -webkit-tap-highlight-color: transparent;
+   touch-action: pan-y;
 }
 .soc-arrow-btn {
    pointer-events: auto;
