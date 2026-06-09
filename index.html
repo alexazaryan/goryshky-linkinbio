@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="uk" style="overflow-x: hidden">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Горішки & Трубочки</title>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+         rel="stylesheet"
+      />
+
+      <link rel="icon" type="image/png" href="images/logo.png" />
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <canvas id="particles"></canvas>
+      <div class="hero">
+         <div class="logo-wrap">
+            <div class="border-rotate"></div>
+            <div class="orbit-ring">
+               <div class="orbit-particle"></div>
+               <div class="orbit-particle orbit-p2"></div>
+               <div class="orbit-particle orbit-p3"></div>
+               <div class="orbit-particle orbit-p4"></div>
+               <div class="orbit-particle orbit-p5"></div>
+            </div>
+            <div class="orbit-ring orbit-ring-2">
+               <div class="orbit-particle orbit-r2-p6"></div>
+               <div class="orbit-particle orbit-r2-p7"></div>
+            </div>
+            <div class="logo-circle">
+               <img src="images/logo.png" alt="Логотип" />
+            </div>
+         </div>
+
+         <div class="socials">
+            <a
+               class="soc-btn"
+               href="https://t.me/+380686462144"
+               target="_blank"
+            >
+               <div class="soc-icon ic-tg">
+                  <svg viewBox="0 0 24 24" fill="none">
+                     <path
+                        d="M21.5 4.5L2.5 11.5L9.5 13.5L14.5 9.5L11.5 14.5L18.5 19.5L21.5 4.5Z"
+                        stroke="#3b9de0"
+                        stroke-width="1.8"
+                        stroke-linejoin="round"
+                     />
+                  </svg>
+               </div>
+               <div class="soc-text">
+                  <span class="soc-label">Замовити</span
+                  ><span class="soc-desc">Швидке замовлення в Telegram</span>
+               </div>
+               <button
+                  style="
+                     background: #1a7ac7;
+                     color: #fff;
+                     box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+                     border: none;
+                     border-radius: 10px;
+                     padding: 12px 0;
+                     font-size: 12px;
+                     font-weight: 700;
+                     letter-spacing: 0.06em;
+                     cursor: pointer;
+                     width: 110px;
+                     text-align: center;
+                  "
+               >
+                  ЗАМОВИТИ
+               </button>
+            </a>
+            <a class="soc-btn" href="#">
+               <div class="soc-icon ic-cat">
+                  <svg viewBox="0 0 24 24" fill="none">
+                     <rect
+                        x="3"
+                        y="3"
+                        width="18"
+                        height="18"
+                        rx="3"
+                        stroke="#e8a830"
+                        stroke-width="1.8"
+                     />
+                     <path
+                        d="M8 9h8M8 12h8M8 15h5"
+                        stroke="#e8a830"
+                        stroke-width="1.8"
+                     />
+                  </svg>
+               </div>
+               <div class="soc-text">
+                  <span class="soc-label">Каталог</span
+                  ><span class="soc-desc">Вся продукція</span>
+               </div>
+               <button
+                  style="
+                     background: #cc9200;
+                     color: #1a0e04;
+                     box-shadow: 0 0 10px rgba(255, 179, 0, 0.5);
+                     border: none;
+                     border-radius: 10px;
+                     padding: 12px 0;
+                     font-size: 12px;
+                     font-weight: 700;
+                     letter-spacing: 0.06em;
+                     cursor: pointer;
+                     width: 110px;
+                     text-align: center;
+                  "
+               >
+                  КАТАЛОГ
+               </button>
+            </a>
+            <a
+               class="soc-btn"
+               href="https://www.tiktok.com/@user1166872540830"
+               target="_blank"
+            >
+               <div class="soc-icon ic-tt">
+                  <svg viewBox="0 0 24 24" fill="none">
+                     <path
+                        d="M19 3H17C17 5.76 14.76 8 12 8V10C13.1 10 14.13 9.72 15 9.22V16C15 18.76 12.76 21 10 21C7.24 21 5 18.76 5 16C5 13.24 7.24 11 10 11V9C6.13 9 3 12.13 3 16C3 19.87 6.13 23 10 23C13.87 23 17 19.87 17 16V7C17.96 7.73 19.17 8.18 20.5 8.18V6.18C19.64 6.18 18.87 5.86 18.29 5.32"
+                        stroke="#7c5cbf"
+                        stroke-width="1.8"
+                     />
+                  </svg>
+               </div>
+               <div class="soc-text">
+                  <span class="soc-label">TikTok</span
+                  ><span class="soc-desc">Відео з виробництва</span>
+               </div>
+               <button
+                  style="
+                     background: #8a3a9a;
+                     color: #fff;
+                     box-shadow: 0 0 10px rgba(171, 71, 188, 0.5);
+                     border: none;
+                     border-radius: 10px;
+                     padding: 12px 0;
+                     font-size: 12px;
+                     font-weight: 700;
+                     letter-spacing: 0.06em;
+                     cursor: pointer;
+                     width: 110px;
+                     text-align: center;
+                  "
+               >
+                  TIKTOK
+               </button>
+            </a>
+            <a
+               class="soc-btn"
+               href="https://www.youtube.com/@%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9%D0%9E%D1%81%D0%B5%D1%82%D1%8F%D0%BD/shorts"
+               target="_blank"
+            >
+               <div class="soc-icon ic-yt">
+                  <svg viewBox="0 0 24 24" fill="none">
+                     <rect
+                        x="2"
+                        y="5"
+                        width="20"
+                        height="14"
+                        rx="4"
+                        stroke="#e03b3b"
+                        stroke-width="1.8"
+                     />
+                     <path d="M10 9L15 12L10 15V9Z" fill="#e03b3b" />
+                  </svg>
+               </div>
+               <div class="soc-text">
+                  <span class="soc-label">YouTube</span
+                  ><span class="soc-desc">Рецепти та відео з кухні</span>
+               </div>
+               <button
+                  style="
+                     background: #c0392b;
+                     color: #fff;
+                     box-shadow: 0 0 10px rgba(244, 67, 54, 0.5);
+                     border: none;
+                     border-radius: 10px;
+                     padding: 12px 0;
+                     font-size: 12px;
+                     font-weight: 700;
+                     letter-spacing: 0.06em;
+                     cursor: pointer;
+                     width: 110px;
+                     text-align: center;
+                  "
+               >
+                  YOUTUBE
+               </button>
+            </a>
+            <a
+               class="soc-btn"
+               href="https://www.instagram.com/goryshky_love"
+               target="_blank"
+            >
+               <div class="soc-icon ic-ig">
+                  <svg viewBox="0 0 24 24" fill="none">
+                     <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="20"
+                        rx="6"
+                        stroke="#d63b8f"
+                        stroke-width="1.8"
+                     />
+                     <circle
+                        cx="12"
+                        cy="12"
+                        r="4"
+                        stroke="#d63b8f"
+                        stroke-width="1.8"
+                     />
+                     <circle cx="17.5" cy="6.5" r="1" fill="#d63b8f" />
+                  </svg>
+               </div>
+               <div class="soc-text">
+                  <span class="soc-label">Instagram</span
+                  ><span class="soc-desc">Фото продукції та портфоліо</span>
+               </div>
+               <button
+                  style="
+                     background: #b8166f;
+                     color: #fff;
+                     box-shadow: 0 0 10px rgba(233, 30, 140, 0.5);
+                     border: none;
+                     border-radius: 10px;
+                     padding: 12px 0;
+                     font-size: 12px;
+                     font-weight: 700;
+                     letter-spacing: 0.06em;
+                     cursor: pointer;
+                     width: 110px;
+                     text-align: center;
+                  "
+               >
+                  INSTAGRAM
+               </button>
+            </a>
+         </div>
+      </div>
+
+      <script src="script.js"></script>
+   </body>
+</html>
