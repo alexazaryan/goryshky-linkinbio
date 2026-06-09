@@ -588,3 +588,6 @@ canvas#ring {
 .ic-cat {
    background: rgba(232, 168, 48, 0.2);
 }
+.soc-arrow-btn {
+   touch-action: manipulation;
+}
