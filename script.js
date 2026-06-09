@@ -37,3 +37,7 @@ function drawParticles() {
    requestAnimationFrame(drawParticles);
 }
 drawParticles();
+
+document.querySelectorAll(".soc-btn").forEach((el) => {
+   el.addEventListener("touchstart", () => {}, { passive: true });
+});
