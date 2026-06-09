@@ -442,13 +442,9 @@ canvas#ring {
    position: relative;
    overflow: hidden;
    background: rgba(20, 10, 5, 0.6);
-   pointer-events: none;
    user-select: none;
    -webkit-tap-highlight-color: transparent;
    touch-action: pan-y;
-}
-.soc-arrow-btn {
-   pointer-events: auto;
 }
 .soc-arrow-btn:hover {
    transform: translateY(-2px);
@@ -549,7 +545,9 @@ canvas#ring {
    width: 110px;
    text-align: center;
    text-decoration: none;
-   transition: transform 0.2s ease, filter 0.2s ease;
+   transition:
+      transform 0.2s ease,
+      filter 0.2s ease;
 }
 .btn-tg {
    background: #1a7ac7;
