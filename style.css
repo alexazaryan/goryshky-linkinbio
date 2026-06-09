@@ -141,7 +141,7 @@ canvas#ring {
    width: 100%;
    opacity: 1;
 }
-.soc-btn {
+/* .soc-btn {
    display: flex;
    align-items: center;
    gap: 14px;
@@ -152,7 +152,7 @@ canvas#ring {
    text-decoration: none;
    color: #fdf3e3;
    transition: all 0.3s ease;
-}
+} */
 .soc-icon {
    width: 38px;
    height: 38px;
@@ -442,9 +442,8 @@ canvas#ring {
    position: relative;
    overflow: hidden;
    background: rgba(20, 10, 5, 0.6);
-   user-select: none;
+   user-select: auto;
    -webkit-tap-highlight-color: transparent;
-   touch-action: pan-y;
 }
 .soc-arrow-btn:hover {
    transform: translateY(-2px);
@@ -588,11 +587,4 @@ canvas#ring {
 }
 .ic-cat {
    background: rgba(232, 168, 48, 0.2);
-}
-
-@media (pointer: coarse) {
-   .soc-btn {
-      user-select: none;
-      -webkit-tap-highlight-color: transparent;
-   }
 }
