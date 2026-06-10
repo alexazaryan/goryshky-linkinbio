@@ -41,3 +41,8 @@ drawParticles();
 document.querySelectorAll(".soc-btn").forEach((el) => {
    el.addEventListener("touchstart", () => {}, { passive: true });
 });
+
+// прячем кнопку вайбер в тик токе
+if (/musical_ly|TikTok|BytedanceWebview/i.test(navigator.userAgent)) {
+   document.querySelector(".btn-vb").closest(".soc-btn").style.display = "none";
+}
