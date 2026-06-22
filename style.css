@@ -590,3 +590,14 @@ canvas#ring {
 .soc-arrow-btn {
    touch-action: manipulation;
 }
+
+/* донат */
+
+.ic-donate {
+   border-color: #e8507a;
+   background: #e8507a22;
+}
+.btn-donate {
+   background: linear-gradient(135deg, #e8507a, #ff8fa3);
+   color: #fff;
+}
